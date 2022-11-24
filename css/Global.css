@@ -1,0 +1,104 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body{
+     background: url(../Images/Bandeira.png) no-repeat top center/cover fixed;
+     padding-block: 3.25rem;
+     display: flex;
+     justify-content: center;
+}
+
+.line{
+     display: flex;
+     justify-content: center;
+     gap: 8rem;
+     margin-bottom: 8rem;
+}
+
+.A{
+     text-decoration: none;
+     color: var(--black);
+}
+
+.btn{
+     border: none; /*tirar as bordas dos buttons dp html*/
+     padding: 0,3125rem 0,625rem 0,3165rem 0,625rem;
+     cursor: pointer;
+     transition: background .3;
+     border-radius: 3rem;
+     margin-top: 5rem;
+     font-size: 5rem;
+}
+
+.btn2{
+     border: none; /*tirar as bordas dos buttons dp html*/
+     padding: 0,3125rem 0,625rem 0,3165rem 0,625rem;
+     cursor: pointer;
+     transition: background .3;
+     border-radius: 6rem;
+     margin-top: 5rem;
+     font-size: 5rem;
+}
+
+.btn-hist{
+     background: var(--orange);
+     outline: none;
+     color: var(--black);
+     cursor: pointer;
+}
+
+.btn-hist:hover{
+     background: var(--orange-transp);
+     color: var(--white);
+}
+
+.btn-cult{
+     background: var(--yellow);
+     outline: none;
+     color: var(--black);
+     cursor: pointer;
+}
+
+.btn-cult:hover{
+     background: var(--yellow-transp);
+     color: var(--white);
+}
+
+.btn-inf{
+     background: var(--blue);
+     outline: none;
+     color: var(--black);
+     cursor: pointer;
+}
+
+.btn-inf:hover{
+     background: var(--blue-transp);
+     color: var(--white);
+}
+
+.btn-polit{
+     background: var(--red);
+     outline: none;
+     color: var(--black);
+     cursor: pointer;
+}
+
+.btn-polit:hover{
+     background: var(--red-transp);
+     color: var(--white);
+}
+
+.btn-turis{
+     background: var(--green);
+     outline: none;
+     color: var(--black);
+     cursor: pointer;
+}
+
+.btn-turis:hover{
+     background: var(--green-transp);
+     color: var(--white);
+}

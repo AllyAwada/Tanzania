@@ -1,0 +1,15 @@
+:root{
+     --black: rgb(0, 0, 0);
+     --white: rgb(255, 255, 255);
+     --green: rgb(11, 165, 11);
+     --orange: rgb(219, 114, 1);
+     --blue: rgb(11, 11, 165);
+     --red: rgb(165, 11, 11);
+     --yellow: rgb(230, 226, 24);
+     --green-transp: rgba(11, 165, 11, 0.3);
+     --orange-transp: rgba(219, 114, 1, 0.3);
+     --blue-transp: rgb(11, 11, 165, 0.3);
+     --red-transp: rgba(165, 11, 11, 0.3);
+     --yellow-transp: rgb(230, 226, 24, 0.3);
+     --white-transp: rgba(255, 255, 255, 0.3);
+}

@@ -1,0 +1,24 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background: url(../../Images/Bandeira.png) fixed;
+}
+
+
+
+body{
+     background-color: var(--white-transp);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     padding: 7rem;
+     color: var(--white);
+}
+
+
+h1{
+     font-size: 5rem;
+
+}
